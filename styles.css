@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background: #f6f1e9;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    font-family: "Bricolage Grotesque", serif;
+    font-weight: 400;
+    gap: 20px;
+
+ }
+
+ .navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+
+ }
+
+.navbar__container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar__toggle{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+body{
+    background-color: #c9a0dc;
+}
+
+#home{
+    padding: 100px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+#home h1{
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    height: 120px;
+    
+
+}
+
+#home h3{
+    font-weight: 600;
+    font-family:"Inter", serif;
+    font-size: 1.4rem;
+}
+
+
+.home__roles{
+    display:flex ;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+.role__left{
+    flex: 2;
+    text-align: center;
+    h2{
+        font-size: 5rem;
+        font-family: "Playfair Display";
+        line-height: .9;
+
+    }
+    p{
+        font-family:"Inter", serif;
+        font-weight: 400;
+        margin-top: 100px;
+    }
+}
+
+.role__right{
+    flex: 2;
+    text-align: center;
+    h2{
+        font-size: 5rem;
+        font-family: "Playfair Display";
+        line-height: .9;
+    }
+    p{
+        font-family:"Inter", serif;
+        font-weight: 400;
+        margin-top: 160px;
+    }
+}
+
+.home__image img{
+    width: 450px;
+    border-radius: 50%;
+    margin: 0 30px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#projects{
+    padding: 90px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#projects h2 {
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+}
+
+#projects h3{
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+}
+
+#projects h4{
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.8rem;
+}
+
+#projects p{
+    margin-top: 15px;
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+}
+
+.project__card{
+    margin-top: 50px;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 15px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#about{
+    padding: 90px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+}
+
+#about h3{
+    font-weight: 700;
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.8rem;
+}
+
+#about p {
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+}
+
+.about__journey {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about__me {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+}
+
+.about__journey {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+
+}
+
+.about__interests {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+    h4{
+        padding: 11px;
+        font-size: 1.4rem;
+        font-family: "Urbanist", sans-serif;
+    }
+}
+
+#currently{
+    padding: 90px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#currently h2{
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+}
+
+#currently p{
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+    padding: 10px;
+}
+
+.current__activites{
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+}
+
+#resume {
+    padding: 30px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+
+}
+    
+.resume__card {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+}
+
+#resume h2{
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+    padding: 20px;
+}
+
+#resume p{
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+    padding: 10px;
+}
+ #resume a{
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+    padding: 10px;
+ }
+
+#contact{
+    padding: 30px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.contact__info{
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background: #f6f1e9;
+    border-radius: 20px;
+}
+
+#contact h2{
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+}
+
+#contact p{
+    font-size: 1.07rem;
+    line-height: 1.4;
+    font-family: "Inter";
+    padding: 20px;
+}
+#contact a{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-family: "Inter";
+    padding: 20px;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 35px auto 15px;
+    max-width: 800px;
+}
+
+.slideshow-content {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+#slideshow-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+#slideshow-caption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.slideshow-button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.slideshow-button:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.slideshow-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.35;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.dot.active {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+.dot:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+    
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links">Home</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links">About</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links">Projects</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="#currently" class="navbar__links">Currently</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="#resume" class="navbar__links">Resume</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links">Contact</a>
+                </li>
+            </ul>
+    
+        </div>
+    </nav>
+    <section id = "home">
+        <div class = "home__content">
+        <h1>Hi, I'm Zainab.</h1>
+        <h3>CS + Cognitive Science student @ Rutgers University.</p>
+        <div class = "home__roles">
+            <div class = "role__left">
+                <h2>cognitive scientist</h2>
+                <h3>People. Behavior. Ideas.</h3>
+                <p>Exploring how we think, learn, perceive, and interact with the world.</p>
+                
+            </div>
+            <div class = "home__image">
+                <img src="images/profile.jpg" alt="Photo of Zainab">
+            </div>
+            <div class = "role__right">
+                <h2>coder</h2>
+                <h3>Logic. Solutions. Impact.</h3>
+                <p>Turning ideas into real life impact through code.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+    
+        <div class="about__me">
+            <h3>Who Am I?</h3>
+            <p>Hi! I'm Zainab Vohra, a student at Rutgers University pursuing a B.S. in Computer Science and a B.A. in Cognitive Science. I'm currently exploring the intersection of technology, people, and the way we interact with the world around us. I expect to graduate in May 2028.</p>
+        </div>
+    
+        <div class="about__journey">
+            <h3>My Journey</h3>
+            <p>My interest in computer science started unexpectedly during my sophomore year of high school. Due to a scheduling mix up, the only class available was Java II, so I decided to give it a try. I picked up coding surprisingly quickly and fell in love with the ability to create things from scratch. From there, I continued exploring computer science and eventually decided to major in it at Rutgers.</p>
+    
+            <p>When I got to Rutgers, I decided to branch out and take an Introduction to Cognitive Science course. I quickly realized how much overlap there was between cognitive science and computer science, and I became fascinated by the intersection of the two. That’s where my journey into cognitive science began.</p>
+    
+            <p>Since then, I’ve been interested in exploring how technology and the way people think, learn, and interact can come together. I’m especially interested in careers at the intersection of technology and people, whether that means designing better user experiences, working on AI products, exploring human-computer interaction, or solving problems from a product perspective.</p>
+        </div>
+    
+        <div class="about__interests">
+            <h3>My Interests</h3>
+    
+            <h4>Currently Curious About:</h4>
+            <p>Human computer interaction, AI, UX, Product design, Technology consulting, Solutions engineering</p>
+    
+            <h4>Outside of Tech:</h4>
+            <p>I love traveling and exploring new places, hiking, creating fun lattes, baking, reading, painting, hanging out with friends, and I have two adorable cats!</p>
+    
+            <div class="slideshow">
+                <button class="slideshow-button previous" aria-label="Previous photo">
+                    &#10094;
+                </button>
+    
+                <div class="slideshow-content">
+                    <img
+                        id="slideshow-image"
+                        src="images/elmo.jpg"
+                        alt="This is Elmo, my cat."
+                    >
+    
+                    <p id="slideshow-caption">This is Elmo, my cat.</p>
+                </div>
+    
+                <button class="slideshow-button next" aria-label="Next photo">
+                    &#10095;
+                </button>
+            </div>
+    
+            <div class="slideshow-dots" aria-label="Photo navigation">
+            </div>
+        </div>
+    </section>
+    
+    <section id = "projects">
+        <h2>Welcome to my Projects</h2>
+        <h3>Here are some of the things I've built.</h3>
+        <div class = "project__card">
+            <h4>BMR & Calorie Tracking Program</h4>
+            <p>Built a console-based application to calculate Basal Metabolic Rate (BMR), daily caloric intake, and projected weight change using user provided inputs.</p>
+            <p class="project__tech">Skills: Python</p>
+        </div>
+        <div class = "project__card">
+            <h4>My Personal Website</h4>
+            <p>Built a personal portfolio website to showcase my background, projects, interests, and experience.</p>
+            <p class="project__tech">Skills: HTML, CSS, Javascript</p>
+        </div>
+        <div class = "project__card">
+            <h4>Cat Island Simulation </h4>
+            <p>Developed an interactive Java simulation to model cats navigating a randomly generated island with turn based movement and collision detection.</p>
+            <p class="project__tech">Skills: Java, Java Swing GUI</p>
+        </div>
+    </section>
+
+    <section id = "currently">
+        <h2>What Am I Currently Up To?</h2>
+        <div class = "current__activites">
+            <p>Currently, I'm entering my junior year at Rutgers, where some of the courses I'm taking include Minds, Machines, and Persons, Intro to AI, Imaging and Multimedia, and Design & Analysis of Computer Algorithms. After finishing up my personal website, I'm excited to start brainstorming what my next project will be. Outside of school, as a huge Bengals fan, I'm gearing up for the start of the NFL season  (we're winning the Superbowl this year, I can feel it), and I'm hoping to make it to a game! With my favorite season beginning, I'm also looking forward to trying all things pumpkin flavored, whether that's lattes or baked goods. And, as I look ahead to next summer, I'm hoping to secure a 2027 internship where I can gain hands on experience and continue figuring out where I want to take my CS + Cognitive Science interests.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Interested in Learning More?</h2>
+        <div class="resume__card">
+            <p>Check out my resume for a closer look at my experience, education, and skills.</p>
+            <a href="files/resume.pdf" target="_blank">Download it here.</a>
+        </div>
+    </section>
+
+    <section id = "contact">
+        <h2>Let's connect!</h2>
+        <div class = "contact__info">
+            <p>I'm always open to connecting with new people, learning about new opportunities, and talking about technology, cognitive science, or interesting ideas!</p>
+            <a href="https://www.linkedin.com/in/zainab-vohra-831562385/" target="_blank">LinkedIn</a>
+            <a href="mailto:zainabvohra30@gmail.com">Email</a>
+            <a href="https://github.com/zainabvohra30">GitHub</a>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
